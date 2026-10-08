@@ -4,61 +4,135 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PopSub · Videolarına otomatik Türkçe altyazı</title>
-  <meta name="description" content="PopSub, iPhone için video düzenleme uygulaması. Konuşmayı yapay zekâ ile otomatik Türkçe altyazıya çevirir, dikkat çeken altyazı stilleriyle Shorts, Reels ve TikTok videoları hazırlar.">
+  <meta name="description" content="PopSub, iPhone için video düzenleme uygulaması. Konuşmayı yapay zekâ ile otomatik Türkçe altyazıya çevirir, kelime vurgulu stillerle Shorts, Reels ve TikTok videoları hazırlar.">
+  <meta name="theme-color" content="#070b1a">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PopSub">
   <meta property="og:title" content="PopSub · Otomatik Türkçe altyazı">
   <meta property="og:description" content="Konuşmanı saniyeler içinde dikkat çeken altyazılara çevir.">
   <meta property="og:url" content="https://popsubapp.com/">
+  <meta property="og:image" content="https://popsubapp.com/assets/icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://popsubapp.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css?v=20261008">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css?v=20261008b">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-  <meta property="og:image" content="https://popsubapp.com/assets/icon-512.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PopSub","operatingSystem":"iOS","applicationCategory":"MultimediaApplication","description":"Konuşmayı otomatik Türkçe altyazıya çeviren video düzenleme uygulaması.","url":"https://popsubapp.com/"}</script>
 </head>
 <body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
   <header class="top">
     <div class="wrap">
       <a class="logo" href="/" aria-label="PopSub ana sayfa"><img src="/assets/logo-icon.png" width="36" height="36" alt=""><span class="wm">pop<span>sub</span></span></a>
-      <nav><a href="/destek/">Destek</a><a href="/gizlilik/">Gizlilik</a></nav>
+      <nav aria-label="Ana menü">
+        <a href="#nasil">Nasıl çalışır</a>
+        <a href="#stiller">Stiller</a>
+        <a href="#sss">SSS</a>
+        <a class="nav-cta" href="mailto:destek@popsubapp.com?subject=PopSub%20erken%20eri%C5%9Fim">Erken erişim</a>
+      </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <div>
-        <span class="badge">iPhone için · Yakında App Store'da</span>
+  <main id="icerik">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <span class="badge"><span class="dot"></span>iPhone için · Yakında App Store'da</span>
         <h1>Konuş, gerisini <em>PopSub</em> yazsın.</h1>
-        <p class="lead">Videondaki konuşmayı yapay zekâ ile otomatik Türkçe altyazıya çevir. Shorts, Reels ve TikTok için dikkat çeken stillerle dakikalar içinde paylaş.</p>
-        <a class="cta" href="mailto:destek@popsubapp.com?subject=PopSub%20erken%20eri%C5%9Fim">Erken erişim iste</a>
-        <a class="cta ghost" href="#ozellikler">Nasıl çalışır?</a>
+        <p class="lead">Videondaki konuşmayı yapay zekâ ile otomatik Türkçe altyazıya çevir. Kelime kelime vurgulanan stillerle Shorts, Reels ve TikTok'ta dikkat çek.</p>
+        <div class="actions">
+          <a class="cta" href="mailto:destek@popsubapp.com?subject=PopSub%20erken%20eri%C5%9Fim">Erken erişim iste</a>
+          <a class="cta ghost" href="#nasil">Nasıl çalışır?</a>
+        </div>
+        <ul class="trust">
+          <li>Türkçeye özel ayarlanmış konuşma tanıma</li>
+          <li>Her ay 15 dakika ücretsiz</li>
+          <li>Video cihazında kalır</li>
+        </ul>
       </div>
-      <div class="phone" aria-hidden="true">
-        <div class="cap">Bunu <b>kimse</b><br>bilmiyordu</div>
-        <div class="bar"></div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="scene"></div>
+          <div class="karaoke">
+            <span>Bunu</span> <span>kimse</span> <span>bilmiyordu</span>
+          </div>
+          <div class="timeline"><i></i><i></i><i></i><b></b></div>
+        </div>
       </div>
     </section>
 
-    <section class="features" id="ozellikler">
+    <section class="section wrap" id="nasil">
+      <p class="eyebrow">Nasıl çalışır</p>
+      <h2>Üç adımda altyazılı video</h2>
+      <ol class="steps">
+        <li><span class="num">1</span><h3>Videonu seç</h3><p>Galeriden ya da dosyalardan dikey videonu içe aktar. Kes, hızlandır, birleştir.</p></li>
+        <li><span class="num">2</span><h3>Otomatik altyazı</h3><p>Tek dokunuşla konuşma kelime kelime yazıya döker, zamanlamayı kendisi yapar. Hatalı kelimeyi düzeltmek saniyeler sürer.</p></li>
+        <li><span class="num">3</span><h3>Stilini seç, paylaş</h3><p>Hazır stillerden birini seç, 1080p olarak dışa aktar. Shorts, Reels ve TikTok'a hazır.</p></li>
+      </ol>
+    </section>
+
+    <section class="section wrap" id="stiller">
+      <p class="eyebrow">Altyazı stilleri</p>
+      <h2>Kısa video için tasarlandı</h2>
+      <div class="styles">
+        <figure class="style s-simple"><div class="frame"><span class="sample">Bunu kimse bilmiyordu</span></div><figcaption>Sade</figcaption></figure>
+        <figure class="style s-outline"><div class="frame"><span class="sample">Bunu kimse bilmiyordu</span></div><figcaption>Kalın kenarlıklı</figcaption></figure>
+        <figure class="style s-box"><div class="frame"><span class="sample">Bunu kimse bilmiyordu</span></div><figcaption>Kutu arka planlı</figcaption></figure>
+        <figure class="style s-karaoke"><div class="frame"><span class="sample">Bunu <mark>kimse</mark> bilmiyordu</span></div><figcaption>Kelime vurgulu</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <p class="eyebrow">Özellikler</p>
+      <h2>İhtiyacın olan her şey, telefonunda</h2>
       <div class="grid">
-        <div class="card"><div class="ico">🎙️</div><h3>Otomatik Türkçe altyazı</h3><p>Konuşmayı kelime kelime yakalar, zamanlamayı kendisi yapar. Elle yazmana gerek kalmaz.</p></div>
-        <div class="card"><div class="ico">✨</div><h3>Dikkat çeken stiller</h3><p>Kısa video için tasarlanmış hazır altyazı stilleri. Tek dokunuşla tüm videoya uygula.</p></div>
-        <div class="card"><div class="ico">✂️</div><h3>Telefonda düzenle</h3><p>Kes, hızlandır, birleştir. Altyazılar düzenlemeyle birlikte doğru yerde kalır.</p></div>
-        <div class="card"><div class="ico">🔒</div><h3>Videon sende kalır</h3><p>Video ve projelerin cihazında durur. Altyazı için yalnız ses işlenir.</p></div>
-        <div class="card"><div class="ico">🍎</div><h3>Hızlı giriş</h3><p>Apple hesabınla ya da e-postanla saniyeler içinde başla.</p></div>
-        <div class="card"><div class="ico">📱</div><h3>Dikey video odaklı</h3><p>9:16 formatı için tasarlandı; YouTube Shorts, Instagram Reels ve TikTok'a hazır.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3Z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg><h3>Otomatik Türkçe altyazı</h3><p>Konuşmayı kelime kelime yakalar, zamanlamayı kendisi yapar. Elle yazmana gerek kalmaz.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h7"/><path d="M17 15l2 2 3-4"/></svg><h3>Kelime vurgulu stiller</h3><p>Konuşulan kelime anında vurgulanır. Tek dokunuşla tüm videoya uygula.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.6 7.5 20 18M8.6 16.5 20 6"/></svg><h3>Telefonda düzenle</h3><p>Kes, hızlandır, birleştir. Altyazılar düzenlemeyle birlikte doğru yerde kalır.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><h3>Videon sende kalır</h3><p>Video ve projelerin cihazında durur. Altyazı için yalnız ses işlenir.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/><path d="m8 12 3 3 5-6"/></svg><h3>Hızlı giriş</h3><p>Apple hesabınla ya da e-postanla saniyeler içinde başla.</p></div>
+        <div class="card"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><h3>Dikey video odaklı</h3><p>9:16 formatı için tasarlandı; 1080p dışa aktarımla her platforma hazır.</p></div>
       </div>
     </section>
 
-    <section class="free">
-      <h2>Her ay 15 dakika ücretsiz altyazı</h2>
-      <p>Kayıt ol, hemen dene. Daha fazlasına ihtiyacın olursa uygulama içinden yükselt.</p>
+    <section class="section wrap">
+      <div class="free">
+        <p class="eyebrow">Fiyatlandırma</p>
+        <h2>Her ay 15 dakika ücretsiz altyazı</h2>
+        <p>Kayıt ol, hemen dene. Daha fazlasına ihtiyacın olursa uygulama içinden Pro'ya geç. Kullanılmayan süre bir sonraki aya devretmez.</p>
+        <a class="cta" href="mailto:destek@popsubapp.com?subject=PopSub%20erken%20eri%C5%9Fim">Erken erişim iste</a>
+      </div>
+    </section>
+
+    <section class="section wrap" id="sss">
+      <p class="eyebrow">Sıkça sorulan sorular</p>
+      <h2>Merak ettiklerin</h2>
+      <div class="faq">
+        <details><summary>Hangi dillerde çalışıyor?</summary><p>PopSub şu an Türkçe konuşma için optimize edildi.</p></details>
+        <details><summary>Videolarım bir yere yükleniyor mu?</summary><p>Hayır. Videoların ve projelerin cihazında kalır. Altyazı oluşturmak için yalnız videonun ses kısmı sunucumuza gönderilir. Ayrıntılar <a href="/gizlilik/">Gizlilik Politikası</a>'nda.</p></details>
+        <details><summary>Ücretsiz kullanım nasıl işliyor?</summary><p>Her takvim ayında 15 dakikalık ücretsiz altyazı hakkın olur. Kullanılmayan süre bir sonraki aya devretmez.</p></details>
+        <details><summary>Ne zaman çıkıyor?</summary><p>PopSub şu an test aşamasında. Erken erişim için bize yaz, hazır olduğunda ilk sen haberdar ol.</p></details>
+        <details><summary>Hesabımı nasıl silerim?</summary><p>Uygulama içinden <strong>Hesap → Hesabı sil</strong> ile hesabını ve sunucudaki verilerini kalıcı olarak silebilirsin.</p></details>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">
-      <div><a href="/destek/">Destek</a><a href="/gizlilik/">Gizlilik Politikası</a><a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a></div>
-      <div>© 2026 PopSub</div>
+    <div class="wrap foot">
+      <div class="foot-brand">
+        <a class="logo" href="/" aria-label="PopSub ana sayfa"><img src="/assets/logo-icon.png" width="32" height="32" alt=""><span class="wm">pop<span>sub</span></span></a>
+        <p>Konuş, gerisini PopSub yazsın.</p>
+      </div>
+      <div class="foot-links">
+        <a href="/destek/">Destek</a>
+        <a href="/gizlilik/">Gizlilik Politikası</a>
+        <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a>
+      </div>
+      <div class="foot-copy">© 2026 PopSub</div>
     </div>
   </footer>
 </body>
