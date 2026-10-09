@@ -242,7 +242,7 @@ h1 em { font-style: normal; color: #0a0a0a; background: var(--pop); padding: 0 .
 .faq details p { margin: 0 0 16px; color: var(--muted); }
 
 /* Doc pages */
-.doc { padding: 40px 20px 72px; max-width: 760px; }
+.doc { padding: 40px 20px 72px; max-width: 760px; overflow-wrap: break-word; }
 .doc h1 { font-size: clamp(2rem, 5vw, 2.8rem); overflow-wrap: break-word; }
 .doc h2 { margin-top: 36px; font-size: 1.25rem; }
 .doc p, .doc li { color: #d6dcf0; }
@@ -252,6 +252,8 @@ h1 em { font-style: normal; color: #0a0a0a; background: var(--pop); padding: 0 .
 footer { border-top: 1px solid var(--line); padding: 36px 0; color: var(--muted); font-size: .9rem; margin-top: 32px; }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
 footer a { color: var(--muted); margin-right: 16px; text-decoration: none; }
+/* Doc-page footer links have no spaces between them; let "Datenschutzerklärung" wrap as a whole link */
+:lang(de) footer a:not(.logo) { display: inline-block; }
 footer a:hover { color: var(--text); }
 .foot-brand .logo { font-size: 1.25rem; margin-right: 0; color: var(--text); }
 .foot-brand p { margin: 6px 0 0; }
