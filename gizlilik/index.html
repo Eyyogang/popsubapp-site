@@ -5,9 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gizlilik Politikası · PopSub</title>
   <meta name="description" content="PopSub gizlilik politikası: hangi verileri neden işlediğimiz ve haklarınız.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PopSub">
+  <meta property="og:title" content="Gizlilik Politikası · PopSub">
+  <meta property="og:description" content="PopSub gizlilik politikası: hangi verileri neden işlediğimiz ve haklarınız.">
+  <meta property="og:url" content="https://popsubapp.com/gizlilik/">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:image" content="https://popsubapp.com/assets/icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://popsubapp.com/gizlilik/">
+  <link rel="alternate" hreflang="tr" href="https://popsubapp.com/gizlilik/">
+  <link rel="alternate" hreflang="en" href="https://popsubapp.com/en/privacy/">
+  <link rel="alternate" hreflang="de" href="https://popsubapp.com/de/datenschutz/">
+  <link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/privacy/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css?v=20261008b">
+  <link rel="stylesheet" href="/style.css?v=20261009">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
@@ -15,7 +30,7 @@
   <header class="top">
     <div class="wrap">
       <a class="logo" href="/" aria-label="PopSub ana sayfa"><img src="/assets/logo-icon.png" width="36" height="36" alt=""><span class="wm">pop<span>sub</span></span></a>
-      <nav><a href="/destek/">Destek</a><a href="/gizlilik/">Gizlilik</a></nav>
+      <nav><a href="/destek/">Destek</a><a href="/gizlilik/">Gizlilik</a><span class="lang"><a href="/gizlilik/" hreflang="tr" lang="tr" aria-label="Türkçe" aria-current="true">TR</a><a href="/en/privacy/" hreflang="en" lang="en" aria-label="English">EN</a><a href="/de/datenschutz/" hreflang="de" lang="de" aria-label="Deutsch">DE</a></span></nav>
     </div>
   </header>
 
@@ -23,6 +38,7 @@
     <h1>Gizlilik Politikası</h1>
     <p class="meta">Son güncelleme: 9 Ekim 2026</p>
     <p>Bu politika, PopSub iOS uygulamasını ve popsubapp.com sitesini kullandığında hangi verileri neden işlediğimizi anlatır. Kısaca: videoların cihazında kalır, verini satmayız, reklam için takip etmeyiz.</p>
+    <p><strong>Veri sorumlusu:</strong> PopSub — iletişim: <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a></p>
 
     <h2>1. Cihazında kalanlar</h2>
     <p>Videoların, fotoğrafların ve düzenleme projelerin yalnız cihazında saklanır; sunucularımıza yüklenmez.</p>
@@ -35,35 +51,42 @@
       <li><strong>Satın alma bilgileri:</strong> Abonelik ve satın alımlar Apple üzerinden yapılır. Ödeme bilgilerini biz görmeyiz; yalnız aboneliğini doğrulamak için Apple'ın gönderdiği işlem bilgilerini saklarız.</li>
     </ul>
 
-    <h2>3. Hizmet sağlayıcılar</h2>
+    <h2>3. Hukuki dayanak</h2>
+    <ul>
+      <li><strong>Hizmetin sunulması:</strong> Hesap bilgileri, altyazı için ses, kullanım ve kota kayıtları ile abonelik doğrulaması, seninle yaptığımız sözleşme kapsamında hizmeti sunabilmemiz için gereklidir (KVKK m.5/2-c; GDPR m.6(1)(b)).</li>
+      <li><strong>Yasal yükümlülük:</strong> Satın alma kayıtlarını yasal yükümlülüklerimizi yerine getirmek için saklarız (KVKK m.5/2-ç; GDPR m.6(1)(c)).</li>
+    </ul>
+
+    <h2>4. Hizmet sağlayıcılar ve veri aktarımı</h2>
     <p>Hizmeti sunmak için şu sağlayıcılarla çalışırız ve veriyi yalnız bu amaçla paylaşırız:</p>
     <ul>
       <li><strong>Supabase</strong>: hesap, veritabanı ve geçici dosya altyapısı (AB bölgesi sunucular).</li>
-      <li><strong>Konuşma tanıma sağlayıcısı</strong> (ör. Deepgram): sesi metne çevirmek için.</li>
+      <li><strong>Deepgram</strong>: sesi metne çevirmek için konuşma tanıma.</li>
       <li><strong>Apple</strong>: Apple ile giriş ve uygulama içi satın alma.</li>
     </ul>
-    <p>Bu sağlayıcıların kendi veri işleme koşulları da geçerlidir.</p>
+    <p>Supabase sunucularımız AB bölgesindedir; bu nedenle verilerin Türkiye dışında, AB'de işlenir. Deepgram ABD merkezli bir sağlayıcıdır; ses kayıtlarını Deepgram'ın AB uç noktasına (api.eu.deepgram.com) göndeririz. Verilerin yurt dışına aktarıldığı durumlarda sağlayıcıların sunduğu güvencelere dayanırız. Bu sağlayıcıların kendi veri işleme koşulları da geçerlidir.</p>
 
-    <h2>4. Yapmadıklarımız</h2>
+    <h2>5. Yapmadıklarımız</h2>
     <ul>
       <li>Kişisel verilerini satmayız veya kiralamayız.</li>
       <li>Reklam amaçlı takip yapmayız, üçüncü taraf reklam SDK'sı kullanmayız.</li>
       <li>Ses kayıtlarını kendi yapay zekâ modellerimizi eğitmek için kullanmayız.</li>
     </ul>
 
-    <h2>5. Saklama süresi ve hesap silme</h2>
+    <h2>6. Saklama süresi ve hesap silme</h2>
     <p>Hesap ve kullanım verilerini hesabın açık olduğu sürece saklarız. Uygulamada <strong>Hesap → Hesabı sil</strong> ile hesabını sildiğinde sunucudaki hesap verilerin ve varsa henüz işlenmekte olan ses dosyaların silinir; Apple ile giriş yaptıysan bu bağlantı da iptal edilir. Cihazındaki projelerin kalır. Yasal yükümlülük gereği saklanması gereken kayıtlar (ör. satın alma kayıtları) yalnız gerekli süre boyunca tutulur.</p>
 
-    <h2>6. Hakların</h2>
-    <p>6698 sayılı KVKK ve geçerli diğer mevzuat kapsamında verilerine erişme, düzeltme, silme ve işlemeye itiraz etme hakkına sahipsin. Talebin için <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a> adresine yaz.</p>
+    <h2>7. Hakların</h2>
+    <p>6698 sayılı KVKK, GDPR ve geçerli diğer mevzuatın tanıdığı ölçüde şu haklara sahipsin: verilerine erişme, düzeltilmesini, silinmesini ve işlemenin kısıtlanmasını isteme, verilerini taşınabilir bir biçimde alma ve işlemeye itiraz etme. Talebin için <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a> adresine yaz.</p>
+    <p>Ayrıca bir denetim makamına şikâyette bulunma hakkın vardır: Türkiye'de Kişisel Verileri Koruma Kurulu'na, AB'de ise özellikle yaşadığın veya çalıştığın ülkedeki veri koruma denetim makamına başvurabilirsin.</p>
 
-    <h2>7. Çocuklar</h2>
+    <h2>8. Çocuklar</h2>
     <p>PopSub 13 yaşın altındaki çocuklara yönelik değildir ve bilerek bu yaştaki çocuklardan veri toplamayız.</p>
 
-    <h2>8. Web sitesi</h2>
+    <h2>9. Web sitesi</h2>
     <p>popsubapp.com çerez kullanmaz ve analiz aracı içermez. Yazı tipleri Google Fonts üzerinden yüklenir.</p>
 
-    <h2>9. Değişiklikler</h2>
+    <h2>10. Değişiklikler</h2>
     <p>Bu politikayı güncellersek bu sayfadaki tarihi değiştiririz; önemli değişiklikleri uygulama içinden de duyururuz.</p>
 
     <h2>İletişim</h2>

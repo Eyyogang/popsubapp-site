@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://popsubapp.com/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/en/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/de/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/gizlilik/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/en/privacy/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/de/datenschutz/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/destek/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/destek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/support/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/en/support/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/destek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/support/"/>
+  </url>
+  <url>
+    <loc>https://popsubapp.com/de/support/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://popsubapp.com/destek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://popsubapp.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://popsubapp.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://popsubapp.com/en/support/"/>
+  </url>
+</urlset>
