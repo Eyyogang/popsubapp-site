@@ -34,7 +34,7 @@
 
   <main class="wrap doc">
     <h1>Datenschutz&shy;erklärung</h1>
-    <p class="meta">Zuletzt aktualisiert: 9. Oktober 2026</p>
+    <p class="meta">Zuletzt aktualisiert: 11. Oktober 2026</p>
     <p>Diese Erklärung beschreibt, welche Daten wir verarbeiten und warum, wenn du die PopSub-iOS-App und die Website popsubapp.com nutzt. Kurz gesagt: Deine Videos bleiben auf deinem Gerät, wir verkaufen deine Daten nicht und wir tracken dich nicht zu Werbezwecken.</p>
     <p><strong>Verantwortliche:</strong> Eymen Altunbaş und Süleyman Çayır (PopSub-Entwickler) – Kontakt: <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a></p>
 
@@ -47,12 +47,15 @@
       <li><strong>Audio für Untertitel:</strong> Wenn du Untertitel erstellen möchtest, wird nur die Tonaufnahme des betreffenden Abschnitts an unseren Server gesendet und an unseren Dienstleister für Spracherkennung weitergegeben. Die Audiodatei wird in einem privaten Speicherbereich, auf den nur unser Server Zugriff hat, und nur für die Dauer der Verarbeitung aufbewahrt; sobald die Untertitel fertig sind (oder wenn der Auftrag abgebrochen wird oder fehlschlägt), wird sie innerhalb weniger Minuten von unserem Server gelöscht. Die Untertitel-Ergebnisse werden nach einem bestimmten Zeitraum automatisch gelöscht.</li>
       <li><strong>Nutzungs- und Kontingentdaten:</strong> Um deine kostenlose und kostenpflichtige Untertitelzeit zu berechnen, speichern wir, welcher Auftrag wie lange gedauert hat.</li>
       <li><strong>Kaufdaten:</strong> Abos und Käufe laufen über Apple. Deine Zahlungsdaten sehen wir nicht; wir speichern nur die Transaktionsdaten, die Apple uns zur Bestätigung deines Abos sendet.</li>
+      <li><strong>Abo-Daten (RevenueCat):</strong> Die App meldet die Käufe, die du abschließt, sowie die über „Käufe wiederherstellen“ erneut geprüften Transaktionen an RevenueCat. Dabei werden Transaktionsdaten (z. B. Produkt, Datum, Preis, Währung und Apple-Transaktionskennungen) übermittelt und, wenn du angemeldet bist, die zufällige Nutzerkennung (UUID) deines Accounts; bist du nicht angemeldet, wird eine von RevenueCat erzeugte anonyme Kennung verwendet. Deine E-Mail-Adresse wird nicht an RevenueCat übermittelt. Dein Pro-Zugang und dein Untertitel-Kontingent hängen nicht von RevenueCat ab, sondern ausschließlich von der Prüfung bei Apple durch unseren eigenen Server.</li>
+      <li><strong>Absturzberichte (Firebase Crashlytics):</strong> Wenn die App abstürzt, wird ein Absturzbericht an Google gesendet, damit wir das Problem finden und beheben können. Der Bericht enthält die Code-Stelle, an der der Fehler aufgetreten ist (Stacktrace), das Gerätemodell, die iOS- und App-Version, den Speicher- und Arbeitsspeicherstatus, ob die App im Hintergrund lief, sowie Installationskennungen von Crashlytics. Wenn du angemeldet bist, wird der Bericht mit der zufälligen Nutzerkennung (UUID) deines Accounts verknüpft. Deine E-Mail-Adresse, Videos, Tonaufnahmen und Untertiteltexte werden dem Bericht nicht hinzugefügt. Google Analytics ist deaktiviert; deine Nutzung innerhalb der App wird nicht verfolgt.</li>
     </ul>
 
     <h2>3. Rechtsgrundlagen</h2>
     <ul>
-      <li><strong>Bereitstellung des Dienstes:</strong> Kontodaten, Audio für Untertitel, Nutzungs- und Kontingentdaten sowie Daten zur Abo-Bestätigung verarbeiten wir, weil dies zur Erfüllung unseres Vertrags mit dir erforderlich ist (Art. 6 Abs. 1 lit. b DSGVO; für Nutzer in der Türkei Art. 5 Abs. 2 lit. c KVKK).</li>
+      <li><strong>Bereitstellung des Dienstes:</strong> Kontodaten, Audio für Untertitel, Nutzungs- und Kontingentdaten, Daten zur Abo-Bestätigung sowie die Abo-Daten bei RevenueCat verarbeiten wir, weil dies zur Erfüllung unseres Vertrags mit dir erforderlich ist (Art. 6 Abs. 1 lit. b DSGVO; für Nutzer in der Türkei Art. 5 Abs. 2 lit. c KVKK).</li>
       <li><strong>Rechtliche Verpflichtung:</strong> Kaufbelege bewahren wir auf, um unsere gesetzlichen Pflichten zu erfüllen (Art. 6 Abs. 1 lit. c DSGVO; Art. 5 Abs. 2 lit. ç KVKK).</li>
+      <li><strong>Berechtigte Interessen:</strong> Absturzberichte verarbeiten wir auf Grundlage unseres berechtigten Interesses, die App stabil und sicher zu betreiben und Fehler zu beheben (Art. 6 Abs. 1 lit. f DSGVO; Art. 5 Abs. 2 lit. f KVKK). Du kannst dieser Verarbeitung widersprechen (siehe Abschnitt 7).</li>
     </ul>
 
     <h2>4. Dienstleister und Datenübermittlung</h2>
@@ -61,18 +64,21 @@
       <li><strong>Supabase</strong>: Infrastruktur für Konto, Datenbank und temporäre Dateien (Server in der EU-Region).</li>
       <li><strong>Deepgram</strong>: Spracherkennung, um Audio in Text umzuwandeln.</li>
       <li><strong>Apple</strong>: „Mit Apple anmelden“ und In-App-Käufe.</li>
+      <li><strong>RevenueCat</strong> (RevenueCat, Inc., USA): Abo- und Kaufdaten sowie Umsatzstatistiken.</li>
+      <li><strong>Google</strong> (Google LLC, USA): Absturzberichte über Firebase Crashlytics.</li>
     </ul>
-    <p>Unsere Supabase-Server befinden sich in der EU-Region. Deepgram ist ein Anbieter mit Sitz in den USA; wir senden Audio an den EU-Endpunkt von Deepgram (api.eu.deepgram.com). Soweit personenbezogene Daten in Länder außerhalb der EU bzw. des EWR übermittelt werden, stützen wir uns auf die vom jeweiligen Anbieter angebotenen Garantien. Zusätzlich gelten die Datenverarbeitungsbedingungen dieser Dienstleister.</p>
+    <p>Unsere Supabase-Server befinden sich in der EU-Region. Deepgram ist ein Anbieter mit Sitz in den USA; wir senden Audio an den EU-Endpunkt von Deepgram (api.eu.deepgram.com). Daten von RevenueCat und Firebase Crashlytics werden auf Servern in den USA verarbeitet. Google LLC ist nach dem EU-US-Datenschutzrahmen (EU-U.S. Data Privacy Framework) zertifiziert; Firebase bietet zusätzlich die EU-Standardvertragsklauseln an (<a href="https://firebase.google.com/support/privacy">Datenschutzinformationen von Firebase</a>). Die Übermittlung an RevenueCat stützt sich auf die EU-Standardvertragsklauseln im <a href="https://www.revenuecat.com/dpa">Auftragsverarbeitungsvertrag</a> von RevenueCat (<a href="https://www.revenuecat.com/privacy">Datenschutzerklärung von RevenueCat</a>). Soweit personenbezogene Daten darüber hinaus in Länder außerhalb der EU bzw. des EWR übermittelt werden, stützen wir uns auf die vom jeweiligen Anbieter angebotenen Garantien. Zusätzlich gelten die Datenverarbeitungsbedingungen dieser Dienstleister.</p>
 
     <h2>5. Was wir nicht tun</h2>
     <ul>
       <li>Wir verkaufen oder vermieten deine personenbezogenen Daten nicht.</li>
-      <li>Wir tracken dich nicht zu Werbezwecken und nutzen keine Werbe-SDKs von Drittanbietern.</li>
+      <li>Wir tracken dich nicht zu Werbezwecken und nutzen keine Werbe-SDKs von Drittanbietern; die App greift nicht auf die Werbe-ID (IDFA) zu und fragt nicht nach einer Tracking-Erlaubnis.</li>
       <li>Wir nutzen deine Tonaufnahmen nicht, um eigene KI-Modelle zu trainieren.</li>
     </ul>
 
     <h2>6. Speicherdauer und Löschen deines Accounts</h2>
     <p>Konto- und Nutzungsdaten speichern wir, solange dein Account besteht. Wenn du deinen Account in der App unter <strong>Account → Account löschen</strong> löschst, werden deine Kontodaten auf unserem Server sowie gegebenenfalls noch in Verarbeitung befindliche Audiodateien gelöscht; falls du dich mit Apple angemeldet hast, wird auch diese Verknüpfung widerrufen. Die Projekte auf deinem Gerät bleiben erhalten. Daten, die wir aufgrund gesetzlicher Pflichten aufbewahren müssen (z. B. Kaufbelege), speichern wir nur so lange wie erforderlich.</p>
+    <p>Absturzberichte werden in Firebase Crashlytics 90 Tage lang gespeichert und danach automatisch gelöscht (<a href="https://firebase.google.com/support/privacy">Firebase</a>). Deine Abo-Daten bei RevenueCat werden gespeichert, solange dein Account besteht; wenn du deinen Account löschst, löschen wir auch deinen Eintrag bei RevenueCat. Wenn du dich abmeldest, verknüpft die App spätere Absturzberichte und RevenueCat-Daten nicht mehr mit deiner Account-Kennung.</p>
 
     <h2>7. Deine Rechte</h2>
     <p>Nach der DSGVO, dem türkischen Datenschutzgesetz Nr. 6698 (KVKK) und anderen anwendbaren Rechtsvorschriften hast du das Recht auf:</p>
@@ -84,7 +90,7 @@
       <li>Datenübertragbarkeit (Art. 20 DSGVO);</li>
       <li>Widerspruch gegen die Verarbeitung (Art. 21 DSGVO).</li>
     </ul>
-    <p>Für deine Anfrage schreib uns an <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a>.</p>
+    <p>Für deine Anfrage schreib uns an <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a>. Über diese Adresse kannst du auch der Verarbeitung von Absturzberichten widersprechen oder die Löschung deiner Daten bei RevenueCat oder Firebase Crashlytics verlangen.</p>
     <p>Außerdem hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, insbesondere in dem EU-Mitgliedstaat deines Wohnorts, deines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes (Art. 77 DSGVO). In der Türkei kannst du dich an die Datenschutzbehörde (KVKK) wenden.</p>
 
     <h2>8. Kinder</h2>

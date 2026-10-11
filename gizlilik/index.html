@@ -34,7 +34,7 @@
 
   <main class="wrap doc">
     <h1>Gizlilik Politikası</h1>
-    <p class="meta">Son güncelleme: 9 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
     <p>Bu politika, PopSub iOS uygulamasını ve popsubapp.com sitesini kullandığında hangi verileri neden işlediğimizi anlatır. Kısaca: videoların cihazında kalır, verini satmayız, reklam için takip etmeyiz.</p>
     <p><strong>Veri sorumlusu:</strong> Eymen Altunbaş ve Süleyman Çayır (PopSub geliştiricileri) — iletişim: <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a></p>
 
@@ -47,12 +47,15 @@
       <li><strong>Altyazı için ses:</strong> Altyazı oluşturmak istediğinde yalnız ilgili bölümün ses kaydı sunucumuza gönderilir ve konuşma tanıma hizmet sağlayıcımıza iletilir. Ses dosyası, erişimi yalnız sunucumuza açık özel bir depolama alanında yalnız işlem süresince tutulur; altyazı tamamlanınca (ya da iş iptal edilir veya başarısız olursa) birkaç dakika içinde sunucumuzdan silinir. Altyazı sonuçları belirli bir süre sonra otomatik olarak temizlenir.</li>
       <li><strong>Kullanım ve kota kayıtları:</strong> Ücretsiz ve ücretli altyazı süreni hesaplamak için hangi işin ne kadar sürdüğünü kaydederiz.</li>
       <li><strong>Satın alma bilgileri:</strong> Abonelik ve satın alımlar Apple üzerinden yapılır. Ödeme bilgilerini biz görmeyiz; yalnız aboneliğini doğrulamak için Apple'ın gönderdiği işlem bilgilerini saklarız.</li>
+      <li><strong>Abonelik kayıtları (RevenueCat):</strong> Uygulama, tamamladığın satın almaları ve "Satın almaları geri yükle" ile yeniden denetlenen işlemleri RevenueCat'e bildirir. Bu kapsamda satın alma işlem bilgileri (ör. ürün, tarih, fiyat, para birimi ve Apple işlem kimlikleri) ile giriş yaptıysan hesabına atanmış rastgele kullanıcı kimliği (UUID) gönderilir; giriş yapmadıysan RevenueCat'in oluşturduğu anonim bir kimlik kullanılır. E-posta adresin RevenueCat'e gönderilmez. Pro erişimin ve altyazı kotan RevenueCat'e değil, yalnız kendi sunucumuzun Apple doğrulamasına dayanır.</li>
+      <li><strong>Çökme raporları (Firebase Crashlytics):</strong> Uygulama çöktüğünde, sorunu bulup giderebilmemiz için Google'a bir çökme raporu gönderilir. Rapor; hatanın oluştuğu kod konumunu (yığın izi), cihaz modelini, iOS ve uygulama sürümünü, bellek ve depolama durumunu, uygulamanın arka planda olup olmadığını ve Crashlytics'in kurulum kimliklerini içerir. Giriş yaptıysan rapor hesabına atanmış rastgele kullanıcı kimliğiyle (UUID) eşlenir. E-posta adresin, videoların, ses kayıtların ve altyazı metinlerin rapora eklenmez. Google Analytics kapalıdır; uygulama içindeki kullanımın izlenmez.</li>
     </ul>
 
     <h2>3. Hukuki dayanak</h2>
     <ul>
-      <li><strong>Hizmetin sunulması:</strong> Hesap bilgileri, altyazı için ses, kullanım ve kota kayıtları ile abonelik doğrulaması, seninle yaptığımız sözleşme kapsamında hizmeti sunabilmemiz için gereklidir (KVKK m.5/2-c; GDPR m.6(1)(b)).</li>
+      <li><strong>Hizmetin sunulması:</strong> Hesap bilgileri, altyazı için ses, kullanım ve kota kayıtları, abonelik doğrulaması ve RevenueCat'teki abonelik kayıtları, seninle yaptığımız sözleşme kapsamında hizmeti sunabilmemiz için gereklidir (KVKK m.5/2-c; GDPR m.6(1)(b)).</li>
       <li><strong>Yasal yükümlülük:</strong> Satın alma kayıtlarını yasal yükümlülüklerimizi yerine getirmek için saklarız (KVKK m.5/2-ç; GDPR m.6(1)(c)).</li>
+      <li><strong>Meşru menfaat:</strong> Çökme raporlarını, uygulamanın kararlı ve güvenli çalışmasını sağlama ve hataları giderme yönündeki meşru menfaatimize dayanarak işleriz (KVKK m.5/2-f; GDPR m.6(1)(f)). Bu işlemeye itiraz edebilirsin (bkz. 7. bölüm).</li>
     </ul>
 
     <h2>4. Hizmet sağlayıcılar ve veri aktarımı</h2>
@@ -61,21 +64,24 @@
       <li><strong>Supabase</strong>: hesap, veritabanı ve geçici dosya altyapısı (AB bölgesi sunucular).</li>
       <li><strong>Deepgram</strong>: sesi metne çevirmek için konuşma tanıma.</li>
       <li><strong>Apple</strong>: Apple ile giriş ve uygulama içi satın alma.</li>
+      <li><strong>RevenueCat</strong> (RevenueCat, Inc., ABD): abonelik ve satın alma kayıtları ile gelir istatistikleri.</li>
+      <li><strong>Google</strong> (Google LLC, ABD): Firebase Crashlytics ile çökme raporları.</li>
     </ul>
-    <p>Supabase sunucularımız AB bölgesindedir; bu nedenle verilerin Türkiye dışında, AB'de işlenir. Deepgram ABD merkezli bir sağlayıcıdır; ses kayıtlarını Deepgram'ın AB uç noktasına (api.eu.deepgram.com) göndeririz. Verilerin yurt dışına aktarıldığı durumlarda sağlayıcıların sunduğu güvencelere dayanırız. Bu sağlayıcıların kendi veri işleme koşulları da geçerlidir.</p>
+    <p>Supabase sunucularımız AB bölgesindedir; bu nedenle verilerin Türkiye dışında, AB'de işlenir. Deepgram ABD merkezli bir sağlayıcıdır; ses kayıtlarını Deepgram'ın AB uç noktasına (api.eu.deepgram.com) göndeririz. RevenueCat ve Firebase Crashlytics verileri ABD'deki sunucularda işlenir. Google LLC, AB-ABD Veri Gizliliği Çerçevesi (EU-U.S. Data Privacy Framework) kapsamında sertifikalıdır; Firebase ayrıca AB Standart Sözleşme Maddeleri'ni sunar (<a href="https://firebase.google.com/support/privacy">Firebase gizlilik bilgileri</a>). RevenueCat'e aktarım, RevenueCat'in <a href="https://www.revenuecat.com/dpa">veri işleme sözleşmesindeki</a> AB Standart Sözleşme Maddeleri'ne dayanır (<a href="https://www.revenuecat.com/privacy">RevenueCat gizlilik politikası</a>). Verilerin yurt dışına aktarıldığı diğer durumlarda da sağlayıcıların sunduğu güvencelere dayanırız. Bu sağlayıcıların kendi veri işleme koşulları da geçerlidir.</p>
 
     <h2>5. Yapmadıklarımız</h2>
     <ul>
       <li>Kişisel verilerini satmayız veya kiralamayız.</li>
-      <li>Reklam amaçlı takip yapmayız, üçüncü taraf reklam SDK'sı kullanmayız.</li>
+      <li>Reklam amaçlı takip yapmayız, üçüncü taraf reklam SDK'sı kullanmayız; uygulama reklam kimliğine (IDFA) erişmez ve senden takip izni istemez.</li>
       <li>Ses kayıtlarını kendi yapay zekâ modellerimizi eğitmek için kullanmayız.</li>
     </ul>
 
     <h2>6. Saklama süresi ve hesap silme</h2>
     <p>Hesap ve kullanım verilerini hesabın açık olduğu sürece saklarız. Uygulamada <strong>Hesap → Hesabı sil</strong> ile hesabını sildiğinde sunucudaki hesap verilerin ve varsa henüz işlenmekte olan ses dosyaların silinir; Apple ile giriş yaptıysan bu bağlantı da iptal edilir. Cihazındaki projelerin kalır. Yasal yükümlülük gereği saklanması gereken kayıtlar (ör. satın alma kayıtları) yalnız gerekli süre boyunca tutulur.</p>
+    <p>Çökme raporları Firebase Crashlytics'te 90 gün saklanır, ardından otomatik olarak silinir (<a href="https://firebase.google.com/support/privacy">Firebase</a>). RevenueCat'teki abonelik kaydın hesabın açık olduğu sürece saklanır; hesabını sildiğinde RevenueCat'teki kaydını da sileriz. Hesaptan çıkış yaptığında uygulama, sonraki çökme raporlarını ve RevenueCat kayıtlarını artık hesap kimliğinle eşlemez.</p>
 
     <h2>7. Hakların</h2>
-    <p>6698 sayılı KVKK, GDPR ve geçerli diğer mevzuatın tanıdığı ölçüde şu haklara sahipsin: verilerine erişme, düzeltilmesini, silinmesini ve işlemenin kısıtlanmasını isteme, verilerini taşınabilir bir biçimde alma ve işlemeye itiraz etme. Talebin için <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a> adresine yaz.</p>
+    <p>6698 sayılı KVKK, GDPR ve geçerli diğer mevzuatın tanıdığı ölçüde şu haklara sahipsin: verilerine erişme, düzeltilmesini, silinmesini ve işlemenin kısıtlanmasını isteme, verilerini taşınabilir bir biçimde alma ve işlemeye itiraz etme. Talebin için <a href="mailto:destek@popsubapp.com">destek@popsubapp.com</a> adresine yaz. Çökme raporlarının işlenmesine itiraz etmek ya da RevenueCat veya Firebase Crashlytics'teki verilerinin silinmesini istemek için de aynı adresi kullanabilirsin.</p>
     <p>Ayrıca bir denetim makamına şikâyette bulunma hakkın vardır: Türkiye'de Kişisel Verileri Koruma Kurulu'na, AB'de ise özellikle yaşadığın veya çalıştığın ülkedeki veri koruma denetim makamına başvurabilirsin.</p>
 
     <h2>8. Çocuklar</h2>
